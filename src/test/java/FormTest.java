@@ -20,7 +20,7 @@ public class FormTest {
         lastNameField.sendKeys("Zinchuk");
 
         WebElement eMailField = driver.findElement(By.xpath("//input[@class='mr-sm-2 form-control']"));
-        // Этот сласс - единственный. Выделяет только его. Есть еще 3 таких же, но с пробелом в начале. Зачем так сделано? Косяк разработчика?
+        // Этот икспас - единственный. Выделяет только его. Есть еще 3 таких же, но с пробелом в начале. Зачем так сделано? Косяк разработчика?
         eMailField.sendKeys("abrakadabra@site.com");
 
         WebElement genderFemaleRadioButton = driver.findElement(By.xpath("//label[@for=\"gender-radio-1\"]"));
